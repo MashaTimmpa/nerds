@@ -1,0 +1,201 @@
+<html>
+    <head>
+        <title>nerds магазин</title>
+        <link rel="stylesheet" href="style.css"/>
+        <meta charset="utf-8">
+        <link href='http://fonts.googleapis.com/css?family=Roboto:400,500,300&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+        <base href="http://barbershop-borodinski.ru/lapshyna/nerds/">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+         <meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="bower_components/gridism/gridism.css">
+        
+    </head>
+    <body>
+        <header class="clearfix">
+            <div class="layout-center-wrapper">
+                <div class="top-menu clearfix">
+                    <a class="logo" href="#"><img src="img/logo.png" alt="logo"></a>
+                    <nav class="main-menu">
+                        <li><a href="#" class="active">Студия</a></li>
+                        <li><a href="#">Клиенты</a></li>
+                        <li><a href="catalog.html">Магазин</a></li>
+                        <li><a href="#">Контакты</a></li>
+                    </nav>
+                        
+                       
+                    <div class="account-menu">
+                        <a class="account-menu-enter" href="#">Корзина</a>
+                    </div>
+                </div>
+
+                <div class="welcome">
+                    <h1>Добро пожаловать в магазин готовых макетов</h1>
+                </div>
+
+          </div>
+        </header>
+
+        <main class="layout-center-wrapper clearfix ">
+                <div class="left-column-catalog clearfix">
+                    <div class="price">
+                        <h2>Стоимость:</h2>
+                        <form action="/echo" method="post">
+                           <label> от <input type="number" min="0" max="100000" step="1" id="star_amount" value="0"></label>
+                           <label> до <input type="number" min="1" max="100000" step="1" value="15000" id="end_amount"></label>
+                        </form>
+                    </div>
+
+                    <div class="filter-button">
+                        <h2>Сетка:</h2>
+                        <form>
+                          <ul>
+                                <li> <input type="radio" name="one" id="adapt" disabled><label for="adapt">Адаптивная</label></li>
+                                <li><input type="radio" name="one" id="fixed" checked> <label for="fixed">Фиксированная</label></li>
+                                <li><input type="radio" name="one" id="rubber"><label for="rubber">Резиновая</label></li>
+                                </ul>
+                        </form>
+                    </div>
+
+                    <div class="filter-checkbox">
+                        <h2>Особенности:</h2>
+                        <form>
+                          <ul>
+                                <li> <input type="checkbox" id="slider" checked><label for="slider">Слайдер</label></li>
+                                <li><input type="checkbox" id="features" > <label for="features">Блок_преимуществ</label></li>
+                                <li><input type="checkbox" id="news" disabled><label for="news">Новости</label></li>
+                                <li> <input type="checkbox" id="gallery"><label for="gallery">Галерея</label></li>
+                                <li><input type="checkbox" id="basket" checked disabled> <label for="basket ">Корзина</label></li>
+                                                             
+                            </ul>
+                        </form>
+                    </div>        
+
+                </div>   
+                <div class="right-column-catlalog clearfix">
+                    <div class="sort">
+                        <h3>Сортировать:</h3>
+                        <ul>
+                            <li><a href="#">по цене</a></li>
+                            <li><a href="#">по типу</a></li>
+                            <li><a href="#">по функционалу</a></li>
+                        </ul>
+                     <div>
+                        <div class="down"> </div>
+                        <div class="up"></div>
+                         
+                    </div>
+
+                    <div class="catalog">
+                        <a href="#"><img src="img/item-1.jpg" alt="">
+                            <div class="buy-item">
+                                <h3>Sunset</h3>
+                                <p>Интернет-магазин с личным кабинетом</p>
+                                <div class="btn btn-price">10 000р</div>
+                            </div>
+                        </a>
+                        <a href="#"><img src="img/item-2.jpg" alt="">
+                            <div class="buy-item">
+                                <h3>Sunset</h3>
+                                <p>Интернет-магазин с личным кабинетом</p>
+                                <div class="btn btn-price">10 000р</div>
+                            </div>
+                        </a>
+                        <a href="#"><img src="img/item-3.jpg" alt="">
+                            <div class="buy-item">
+                                <h3>Sunset</h3>
+                                <p>Интернет-магазин с личным кабинетом</p>
+                                <div class="btn btn-price">10 000р</div>
+                            </div>
+                        </a>
+                        <a href="#"><img src="img/item-4.jpg" alt="">
+                        <div class="buy-item">
+                                <h3>Sunset</h3>
+                                <p>Интернет-магазин с личным кабинетом</p>
+                                <div class="btn btn-price">10 000р</div>
+                            </div>
+                        </a>
+                        
+                        <a href="#"><img src="img/item-5.jpg" alt="">
+                            <div class="buy-item">
+                                <h3>Sunset</h3>
+                                <p>Интернет-магазин с личным кабинетом</p>
+                                <div class="btn btn-price">10 000р</div>
+                            </div>
+                        </a>
+                        <a href="#"><img src="img/item-6.jpg" alt="">
+                            <div class="buy-item">
+                                <h3>Sunset</h3>
+                                <p>Интернет-магазин с личным кабинетом</p>
+                                <div class="btn btn-price">10 000р</div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="paginator">
+                        <a class="active" href="#">1</a>
+                        <a href="#">2</a>
+                        <a href="#">3</a>
+                        <a href="#" class="next">следующая</a>
+                    </div>
+                </div>
+        </main>
+
+        <footer class="clearfix">
+         <div class="map-wrapper">
+                <container id="map-canvas" class="map clearfix">   </container>
+            <div class="layout-center-wrapper clearfix">
+                        <div class="contacts">
+                        
+                            <h3>Nёrds <em>Design studio</em></h3>
+                            <p>350000, Краснодар,  <br>ул. Головатого, 100</p>
+                            <p>тел. +7 (861) 275-75-7</p>
+                            <a href="#"><div class="btn btn-contact-us">напишите нам</div></a>
+                        </div>
+                    </div>    
+            </div>
+
+            <div class="social-container">
+                <div class="layout-center-wrapper clearfix">
+                    <div class="social-buttons">
+                        <a href="http://vk.com" class="btn-social btn-social-vk"></a>
+                        <a href="http://facebook.com" class="btn-social btn-social-fb"></a>
+                        <a href="http://instagram.com" class="btn-social btn-social-inst"></a>
+                    </div>
+                    <div class="social-text clearfix">
+                        <h3>Давайте дружить, это выгодно!</h3>
+                        <p>Скидака 10% для друзей из социальных сетей.</p>
+                    </div>
+                </div>
+            </div>    
+        </footer>
+
+        <!--footer map-->
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<!-- bxSlider Javascript file -->
+<script src="js/jquery.bxslider.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
+<script>
+$(function(){
+  var mapOptions = {
+    zoom: 18,
+    center: new google.maps.LatLng(45.0435,38.943),
+    draggable: true
+  }
+
+  var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+
+
+  var image = 'http://barbershop-borodinski.ru/lapshyna/nerds/img/map-pointer.png';
+  var myLatLng = new google.maps.LatLng(45.043323,38.94424);
+  var beachMarker = new google.maps.Marker({
+    position: myLatLng,
+    map: map,
+    icon: image
+  });
+})
+</script>
+</body>
+</html>
+    

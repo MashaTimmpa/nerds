@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Maps are cool.</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="bower_components/gridism/gridism.css">
+
+    </head>
+    <body class="wrap">
+    <div class="grid">
+        <div id='ya-container' class="unit whole" style='height: 300px; width: 1200px'>
+        </div>
+    </div>
+
+<script src="http://api-maps.yandex.ru/2.0-stable/?load=package.standard&lang=ru-RU" type="text/javascript"></script>
+<script type="text/javascript">
+
+    ymaps.ready(function () {
+        console.log('lol')
+        var map = new ymaps.Map("ya-container", {
+            center: [45.043323,38.94424],
+            zoom: 17
+        });
+    })
+</script>
+
+
+    </body>
+</html>
