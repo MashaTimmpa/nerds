@@ -700,7 +700,7 @@ input[type="radio"] + label::before{
 }
 
 input[type="checkbox"] + label::before{
-    background-position:-34px -2px;
+    background-position:-33px -2px;
 }
 
 input[type="checkbox"]:disabled + label::before,
@@ -713,10 +713,10 @@ input[type="checkbox"]:hover + label::before{
 }
 
  input[type="checkbox"]:checked + label::before {
-    background-position: -80px -48px;
+    background-position: -81px -49px;
 }
  input[type="checkbox"]:checked:hover + label::before {
-    background-position:-29px -47px;
+    background-position:-30px -48px;
     }
 
 input[type="checkbox"]:checked:disabled + label::before,
@@ -725,12 +725,12 @@ input[type="checkbox"]:checked:disabled:hover + label::before {
 }
 
 .filter-button input[type="radio"] + label::before {
-    background-position:-38px -145px;
+    background-position:-37px -145px;
 
 }
 
 .filter-button input[type="radio"]:checked + label::before {
-    background-position: -88px -192px;
+    background-position: -87px -192px;
 }
 
 input[type="radio"]:disabled + label::before,
@@ -739,7 +739,7 @@ input[type="radio"]:disabled:hover + label::before  {
 }
 
 input[type="radio"]:hover + label::before{
-    background-position: -89px -146px;
+    background-position: -87px -146px;
 }
 
 }
