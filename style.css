@@ -795,7 +795,7 @@ form li{
 }
 .catalog a:before{
     position: absolute;
-    top:-30px;
+    top:-29px;
     content: "";
     display: inline-block;
     width: 241px;
