@@ -41,19 +41,22 @@ header{
 .bxslider li{  background-color:#eee;}
 
 .logo {
+    margin: 0;
     display: block;
     float:left;
+    min-height: 62px;
 } 
 
 .main-menu,
 .account-menu{
+     display: inline-block;
     margin-top: 32px;
 }
 
 .main-menu{
     margin-left:179px;
-    float:left;
-}
+    float:left;}
+
 
 .account-menu{
     float:right;
